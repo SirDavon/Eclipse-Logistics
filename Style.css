@@ -1,0 +1,78 @@
+body {
+    background-image: url(img/d.jpg) ;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+navbar ul {
+    list-style-type: none;
+    margin: 0;
+     width: 100%;
+     color:blue
+     /* height: 10%;   */
+    overflow: hidden;
+    background-color:blue;
+    position: fixed;
+}
+.navbar ul > li {
+     float: left;
+    border-right: 2px;
+    color: blue
+}
+.navbar li > a{
+    display: block;
+    padding: 12px;
+    color: white;
+}
+.active{
+    background-color: white;
+}
+li.active a {
+    color:#5a8000;
+}
+/* .firstbox{
+    position: absolute;
+    left: 30px;
+    top: 300px;
+    height: 200px;
+    width: 300px;
+    color: blue;
+    background-color: yellow;
+}
+.secondbox{
+    position: absolute;
+    left: 330px;
+    top: 300px;
+    height: 250px;
+    width:300px;
+    color: blue;
+    background-color: green;
+}
+.thirdbox{
+    position: absolute;
+    left: 630;
+    top: 300px;
+    height: 200px;
+    width:300px;
+    color: blue;
+    background-color: red;
+} */
+
+/* create a page , give it own nav bar, nav bar must fixed */
+/* ero 1290pixels=width */
+/* learn tables in html and how to style them in css */
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
+.jumbotron {
+  color:white;
+  background-color: rgb(0, 128, 128);   
+}
+.firstbutton {
+    text-align: right !important;
+}
